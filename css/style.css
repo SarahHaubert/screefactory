@@ -5,7 +5,6 @@ body {
   color: #616971;
 }
 
-/*============= TOP BAR HEADER =============*/
 
 .top-bar {
   background-color: #80CCCC;
@@ -19,7 +18,7 @@ body {
   font-size: 1.1rem;
 }
 
-/*============= NAVIGATION =============*/
+
 .navbar-brand img {
   height: 4rem;
   border-radius: 50%;
@@ -47,7 +46,7 @@ body {
 
 }
 
-/*============= CAROUSEL =============*/
+
 #carousel {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -57,12 +56,12 @@ body {
 }
 
 
-/*---Change Carousel Transition Speed --*/
+
 .carousel-item-next, .carousel-item-previous, .carousel-item-active {
   transition: transform 1.2s ease;
 }
 
-/*-- Carousel Content --*/
+
 .carousel-caption {
   position: absolute;
   top: 24%;
@@ -125,7 +124,7 @@ body {
 .btn-danger:focus {
   border: 0.1rem solid 
 }
-/*===== FIXED BACKGROUND IMG =====*/
+
 
 .fixed-background {
   overflow: hidden; /*-- Correction for iOS --*/
@@ -138,21 +137,21 @@ body {
 }
 
 
-/*-- Emoji Navbar --*/
-.emoji {
+
+.about {
   background-image: linear-gradient(to right, #80CCCC, #B2FFFF);
   min-height: 0!important;
   padding: .4rem 0!important;
 }
 
-.emoji .svg-inline--fa {
+.about .svg-inline--fa {
   margin: 0 auto;
   color: white;
   font-size: 2rem;
 }
 
 
-/*============= FOOTER =============*/
+
 footer {
   padding: 1rem 2rem 3rem;
 }
@@ -189,14 +188,14 @@ footer .svg-inline--fa:hover {
   color: #68a0d2
 }
 
-/*============= SOCKET =============*/
+
 
 .socket {
   background-color: #222;
   border-top: .1rem solid #4981b3;
 }
 
-/*============= MEDIA QUERIES =============*/
+
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
@@ -213,7 +212,7 @@ footer .svg-inline--fa:hover {
   
 
 }
-/* Devices under 992px (md) */
+
 @media (max-width: 991.98px) {
   .carousel-caption h1 {
     font-size: 2.5rem;
@@ -320,32 +319,13 @@ footer .svg-inline--fa:hover {
   font-size: 20px;
 }
 
-/*============ BOOTSTRAP BREAK POINTS:
 
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
 
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
-
-/*-- Bootstrap Mobile Gutter Fix --*/
 .row, .container-fluid {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
-/*-- Fixed Background Image --*/
 .fixed-background {
   position: relative;
   width: 100%;
